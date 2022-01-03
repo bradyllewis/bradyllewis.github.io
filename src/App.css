@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: darkblue;
+  color: #cccccc;
+}
+
+.coin-table {
+  margin: 50px auto 50px auto;
+  display: inline-block;
+  font-size: 1.75rem;
 }
 
 .App-logo {
@@ -15,13 +23,16 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
   color: white;
+}
+
+.App-title {
+  font-size: 4rem;
 }
 
 .App-link {
